@@ -23,7 +23,7 @@ class NaverIdentityProvider(session: KeycloakSession, config: OAuth2IdentityProv
     companion object {
         const val AUTH_URL = "https://nid.naver.com/oauth2.0/authorize"
         const val TOKEN_URL = "https://nid.naver.com/oauth2.0/token"
-        const val PROFILE_URL = "https://openapi.naver.com/v1/nid/me"
+        const val PROFILE_URL =  "https://openapi.naver.com/v1/nid/me"
         const val DEFAULT_SCOPE = "profile"
     }
 
