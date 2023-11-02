@@ -1,1 +1,2 @@
 keycloak.naver.social.provider.NaverUsernameTemplateMapper
+keycloak.naver.social.provider.NaverUserAttributeMapper
