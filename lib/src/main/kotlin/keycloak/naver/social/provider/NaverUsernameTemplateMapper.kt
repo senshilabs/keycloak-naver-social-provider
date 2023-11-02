@@ -14,7 +14,7 @@ import java.util.function.UnaryOperator
 import java.util.regex.Pattern
 
 
-class NaverIdentityProviderMapper : AbstractClaimMapper() {
+class NaverUsernameTemplateMapper : AbstractClaimMapper() {
     companion object {
         const val PROVIDER_ID = "naver-user-attribute-mapper"
         private val SUBSTITUTION: Pattern = Pattern.compile("\\$\\{([^}]+?)(?:\\s*\\|\\s*(\\S+)\\s*)?\\}")
@@ -47,7 +47,7 @@ class NaverIdentityProviderMapper : AbstractClaimMapper() {
     }
 
     override fun getConfigProperties(): MutableList<ProviderConfigProperty> {
-        return NaverIdentityProviderMapper.configProperties.toMutableList()
+        return NaverUsernameTemplateMapper.configProperties.toMutableList()
     }
 
     override fun getCompatibleProviders(): Array<String> {
