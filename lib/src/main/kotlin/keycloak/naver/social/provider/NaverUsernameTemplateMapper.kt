@@ -16,7 +16,7 @@ import java.util.regex.Pattern
 
 class NaverUsernameTemplateMapper : AbstractClaimMapper() {
     companion object {
-        const val PROVIDER_ID = "naver-user-attribute-mapper"
+        const val PROVIDER_ID = "naver-username-template-mapper"
         private val SUBSTITUTION: Pattern = Pattern.compile("\\$\\{([^}]+?)(?:\\s*\\|\\s*(\\S+)\\s*)?\\}")
 
         val configProperties = listOf(
