@@ -10,7 +10,6 @@ import org.keycloak.models.RealmModel
 import org.keycloak.models.UserModel
 import org.keycloak.models.utils.KeycloakModelUtils
 import org.keycloak.provider.ProviderConfigProperty
-import java.util.*
 import java.util.function.UnaryOperator
 import java.util.regex.Pattern
 
@@ -56,11 +55,11 @@ class NaverIdentityProviderMapper : AbstractClaimMapper() {
     }
 
     override fun getDisplayCategory(): String {
-        return "User Attribute Mapper"
+        return "Preprocessor"
     }
 
     override fun getDisplayType(): String {
-        return "Naver User Attribute Mapper"
+        return "Username Template Importer"
     }
 
     override fun updateBrokeredUserLegacy(
