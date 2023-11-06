@@ -1,9 +1,10 @@
 # keycloak-naver-social-provider
 
-![image](https://github.com/senshilabs/keycloak-naver-social-provider/assets/10369528/ee76898d-6b16-4eb3-b2f3-1d3d99745f2c)
 
+![image](https://github.com/senshilabs/keycloak-naver-social-provider/assets/10369528/3061a1ec-3068-45fa-a317-77f38bf8ceaf)
 
-![image](https://github.com/senshilabs/keycloak-naver-social-provider/assets/10369528/df2f31fe-e7ee-42fc-adac-7e5c98766648)
+![image](https://github.com/senshilabs/keycloak-naver-social-provider/assets/10369528/cbee32ed-f8d8-4e04-8134-eecf3b78c7d4)
+
 
 이 프로젝트는 Keycloak를 위한 네이버 소셜 프로바이더와 Attribute Mapper 를 제공합니다.
 
