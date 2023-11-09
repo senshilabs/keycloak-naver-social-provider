@@ -35,7 +35,6 @@ class NaverIdentityProvider(session: KeycloakSession, config: OAuth2IdentityProv
         try {
             val profile = fetchUserProfile(accessToken)
             val id = getJsonProperty(profile, "id")
-            val name = getJsonProperty(profile, "name")
             val email = getJsonProperty(profile, "email")
             val user = BrokeredIdentityContext(id)
             user.username = email
