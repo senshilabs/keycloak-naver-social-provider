@@ -22,5 +22,9 @@ Server configuration updated and persisted. Run the following command to review 
 ```
 
 
+## Naver App 설정
+![image](https://github.com/senshilabs/keycloak-naver-social-provider/assets/10369528/96d7522a-4708-48f0-8aca-d8a7bf28c2ed)
+기본 Attribute 값 설정을 위하여 위의 동의가 필요합니다.
+
 ## 기타
 해당 SPI 는 keycloak 22.0.5 버전에서 테스트 되었습니다.
